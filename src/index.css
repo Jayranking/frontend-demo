@@ -1,0 +1,104 @@
+.nav{
+  line-height: 50px;
+}
+.nav-bar{
+  background-color: bisque
+}
+
+.logoname{
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: auto;
+  margin-left: 50px;
+  float: left;
+  margin-top: 10px;
+}
+
+.nav ul li{
+  list-style: none;
+  color: rgb(red, green, blue);
+  padding: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav ul li:hover{
+  color: gold;
+}
+
+.nav li{
+  display: inline;
+  margin-left: 50px;
+}
+
+.nav .nav-ul{
+  max-width: 800px;
+  margin:auto;
+}
+
+.footer{
+  position: fixed;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(36, 34, 29, 0.199);
+  color: black;
+  text-align: center;
+}
+
+.body{
+  background-color: rgb(227, 241, 241);
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  background-color:green;
+  }
+  
+  .label{
+  display: block;
+  font-size: larger;
+  color: white;
+  padding: 5px;
+  }
+  
+  .input{
+  font-size: larger;
+  padding: 5px;
+  margin: 2px;
+  
+  }
+  .btn{
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-size: larger;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+  }
+  
+  .messages{
+  display: flex;
+  justify-content: center;
+  }
+  
+  .error{
+  display: block;
+  background-color: red;
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+  }
+  
+  .success{
+  display: block;
+  background-color: lightblue;
+  color: black;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+  }
+  
